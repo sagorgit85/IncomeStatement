@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NetSalesActivity" />
+        <activity android:name=".GrossProfitActivity" />
+        <activity android:name=".CostOfGoodsSoldActivity" />
+        <activity android:name=".OperatingExpensesActivity" />
+        <activity android:name=".NetIncomeActivity"></activity>
     </application>
 
 </manifest>

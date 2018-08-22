@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    
+    <color name="metarial_deep_blue">#000080</color>
+    <color name="metarial_deep_orange">#ffa322</color>
+    <color name="metarial_deep_pink">#ff1493</color>
+    <color name="metarial_deep_purple">#800080</color>
+    <color name="metarial_deep_green">#008000</color>
+    <color name="metarial_deep_olive">#808000</color>
+
 </resources>

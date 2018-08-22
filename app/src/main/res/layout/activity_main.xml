@@ -6,11 +6,207 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="#15038b"
+    android:background="@color/metarial_deep_blue"
     tools:context=".MainActivity">
 
+    <android.support.v7.widget.CardView
+        android:id="@+id/salesCardViewId"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@mipmap/sales_icon_round"
+                android:background="@color/metarial_deep_green"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="#ff2222"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="@string/sales"
+                android:textSize="22dp"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
 
 
+    <android.support.v7.widget.CardView
+        android:id="@+id/costOfGoodsSoldCardViewId"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@mipmap/cost_of_goods_sold_round"
+                android:background="@color/metarial_deep_orange"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="#ff2222"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="@string/cost_of_goods_sold"
+                android:textSize="22dp"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/grossProfitCardViewId"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@mipmap/gross_profit"
+                android:background="@color/metarial_deep_purple"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="#ff2222"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="@string/gross_profit"
+                android:textSize="22dp"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/operatingExpensesCardViewId"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@mipmap/operating_expences_round"
+                android:background="@color/metarial_deep_pink"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="#ff2222"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="@string/operating_expenses"
+                android:textSize="22dp"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/netIncomeCardViewId"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@mipmap/net_income_round"
+                android:background="@color/metarial_deep_olive"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="#ff2222"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:text="@string/net_income"
+                android:textSize="22dp"
+                android:gravity="left"
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>

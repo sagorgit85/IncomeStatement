@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Income Statement</string>
+
+    <string name="sales">Sales</string>
+    <string name="cost_of_goods_sold">Cost of goods sold</string>
+    <string name="gross_profit">Gross profit</string>
+    <string name="operating_expenses">Operating Expenses</string>
+    <string name="net_income">Net Income</string>
+
 </resources>

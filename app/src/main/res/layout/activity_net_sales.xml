@@ -39,6 +39,7 @@
         <EditText
             android:id="@+id/costOfGoodsSoldET"
             android:hint="Enter Cost Of Goods Sold Amount"
+            android:inputType="number"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -53,6 +54,7 @@
         <EditText
             android:id="@+id/grossProfitET"
             android:hint="Enter Gross Profit Amount"
+            android:inputType="number"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

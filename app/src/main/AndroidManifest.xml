@@ -20,7 +20,8 @@
         <activity android:name=".GrossProfitActivity" />
         <activity android:name=".CostOfGoodsSoldActivity" />
         <activity android:name=".OperatingExpensesActivity" />
-        <activity android:name=".NetIncomeActivity"></activity>
+        <activity android:name=".NetIncomeActivity" />
+        <activity android:name=".ShowResultActivity" />
     </application>
 
 </manifest>

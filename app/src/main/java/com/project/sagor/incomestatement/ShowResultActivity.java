@@ -13,6 +13,12 @@ public class ShowResultActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_result);
+        getSupportActionBar().setTitle(" Home");
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setLogo(R.drawable.ic_home_black_24dp);
+        getSupportActionBar().setDisplayUseLogoEnabled(true);
 
         resultTV    = findViewById(R.id.resultTV);
         name1TV     = findViewById(R.id.name1TV);

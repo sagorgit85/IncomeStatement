@@ -21,7 +21,7 @@
         <activity android:name=".CostOfGoodsSoldActivity" />
         <activity android:name=".OperatingExpensesActivity" />
         <activity android:name=".NetIncomeActivity" />
-        <activity android:name=".ShowResultActivity" />
+        <activity android:name=".ShowResultActivity" android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
